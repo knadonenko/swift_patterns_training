@@ -17,8 +17,4 @@ class TodoTask: Tasks {
         self.name = name
     }
     
-    func open() {
-        self.subTasksList.forEach{ $0.open() }
-    }
-    
 }
